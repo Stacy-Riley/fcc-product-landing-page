@@ -1,0 +1,62 @@
+body {
+
+}
+/*Pricing Section*/
+
+.column-layout {
+	display: flex;
+	max-width: 1200px;
+	background-color: gray;
+	margin: 20px 40px;
+	justify-content: space-around;
+}
+
+.pricing-a {
+	flex: 1;
+}
+
+.pricing-b {
+	flex: 1;
+}
+
+.pricing-c {
+	flex: 1;
+}
+
+/*Contact Section*/
+.column-contact-group {
+	display: flex;
+	max-width: 1200px;
+	background-color: gray;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contact-group-main {
+	flex: 3;
+	order: 2;
+}
+
+.contact-group-review-1 {
+	flex: 1;
+	order: 1;
+}
+
+.contact-group-review-2 {
+	flex: 1;
+	order: 3;
+}
+/*
+.form-row {
+	padding: 10px 0;
+	display: flex;
+}
+
+.form-row label {
+	padding-right: 10px;
+}
+
+.form-row input {
+	flex: 1;
+}
+*/
