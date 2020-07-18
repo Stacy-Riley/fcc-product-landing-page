@@ -3,6 +3,7 @@ body {
 }
 
 /*Header Section*/
+
 .header-container {
 	display: flex;
 	overflow: hidden;
@@ -13,19 +14,32 @@ body {
 	color: white;
 }
 
+/*This is turned into a flex container so logo and H2 can be side
+by side */
 .head-div-1 {
 	flex: 1;
+	display: flex;
 }
 
+.head-div-1 a {
+	flex: 1;
+	margin; 0;
+}
+
+.head-div-1 h2 {
+	flex: 1;
+	margin; 0;
+}
+
+/*Navbar side*/
 .head-div-2 {
 	flex: 1;
 }
 
-/*Links within the navbar*/
-
 nav ul li {
 	display: inline-block;
 }
+
 nav ul li a {
 	padding: 0px 0px 10px 70px;
 	margin: 0;
@@ -39,7 +53,7 @@ nav ul li a {
 
 .price-container {
 	max-width: 1200px;
-	margin: 40px auto 0 auto;
+	margin: 140px auto 0 auto;
 }
 
 .price-a, .price-b, .price-c {
@@ -56,6 +70,10 @@ nav ul li a {
 		display: flex;
 	 	justify-content: space-between;
 	}	 	
+}
+/*Our Process Section*/
+#process {
+	margin-top: 100px;
 }
 
 /*Contact Section*/
