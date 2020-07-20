@@ -7,8 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<title>Original Trombones</title>
 </head>
-<body>
-	<div class="grid-wrapper">
+	<body>
 <!--Header with logo and navbar-->
 		<header id="header">
 			<div class="header-container">
@@ -28,8 +27,10 @@
 			</div>				
 		</header>
 <!--Process Section-->		
+		<div id="process"></div>
 		<section>
-			<div id="process" class="process-container">
+			<div class="process-container">
+				<div class="process-all-1">
 				<h1>Handcrafted, Masterpiece Trombones</h1>
 					<h3 class="process-list">Premium Materials</h3>
 					<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
@@ -37,32 +38,60 @@
 					<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
 					<h3 class="process-list">Quality Assurance</h3>
 					<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+				</div>
+
+				<div class="process-all-2">
 				<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>	
 			</div>
 		</section>
-<!--Pricing Section-->		
-		<section id="pricing">
+<!--Pricing Section-->	
+		<div id="pricing"></div>	
+		<section>
 			<div class="price-container">
 				<div class="price-a">
 					<h2>Price A</h2>
 					<p>description here</p>
+						<ul>
+							<li>Feature 1</li>
+							<li>Feature 2</li>
+							<li>Feature 3</li>
+							<li>Feature 4</li>
+							<li>Feature 5</li>
+						</ul>
 				</div>
 				<div class="price-b">
 					<h2>Price B</h2>
 					<p>description here</p>
+						<ul>
+							<li>Feature 1</li>
+							<li>Feature 2</li>
+							<li>Feature 3</li>
+							<li>Feature 4</li>
+							<li>Feature 5</li>
+						</ul>
 				</div>
 				<div class="price-c">
 					<h2>Price C</h2>
 					<p>description here</p>
+						<ul>
+							<li>Feature 1</li>
+							<li>Feature 2</li>
+							<li>Feature 3</li>
+							<li>Feature 4</li>
+							<li>Feature 5</li>
+						</ul>
 				</div>
 			</div>
 			
 		</section>
-		<section id="contact">
+		<div id="contact"></div>
+		<section>
 <!--Contact Form-->			
 <!--Name-->
 			<div class="contact-container">
-				<form id="form" class="contact-main">
+				<form id="form" class="contact-main"
+				action="https://www.freecodecamp.com/email-submit">
 					<h2>Contact Us Today to Learn More!</h2>
 					<br>
 					<p>Call us at: (555) 555-5555</p>
@@ -80,10 +109,7 @@
 						<input id="email" type="email" name="email" placeholder="Enter your email address" required>
 						<br>
 						<br>
-					
-						
-						<button><input type="button" name="submit" id="submit">Submit</button>
-						
+						<input type="submit" name="Submit" id="submit" >	
 					</div>	
 				</form>
 			</div>	
@@ -92,25 +118,31 @@
 				<div class="review-1">
 					<h3>Review 1</h3>
 					<p>"What a great product! I would definitely recommend if you are looking for a well made trombone."</p>
+					<br>
+					<p><em>-Henry C. Washington D.C</em></p>
 				</div>
 				<div class="review-2">
 					<h3>Review 2</h3>
 					<p>"I always wanted a trombone and now I have one.  Couldn't be happier with the quality and price."</p>
+					<br>
+					<p><em>-Donnie L. New Jersey</em></p>
 				</div>
 				<div class="review-3">
 					<h3>Review 3</h3>
-					<p>"Who would have thought, I love trombones and now I have the most beautiful instrument. I have recommended this business to all my friends and family!."</p>
+					<p>"Who would have thought, I love trombones and now I have the most beautiful instrument. I have recommended this business to all my friends and family!"</p>
+					<br>
+					<p><em>-Sarah K. Virginia</em></p>
 				</div>
 				<div class="review-4">
 					<h3>Review 4</h3>
 					<p>"My daughter loves her new trombone and I love the quality and price!"</p>
+					<br>
+					<p><em>-Mary M. Ohio</em></p>
 				</div>
 			</div>
 		</section>
 		<footer>
-			<p>copywright here</p>
+			<p id="copyright"><span>&copy; Copyright Original Trombone 2020</span></p>
 		</footer>
-	</div>
-
-</body>
+	</body>
 </html>

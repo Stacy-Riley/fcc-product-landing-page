@@ -12,6 +12,8 @@ body {
 	top: 0; /*fixed to the top of the page*/
 	width: 100%; /*full width*/
 	color: white;
+	margin: 0;
+	padding: 0;
 }
 
 /*This is turned into a flex container so logo and H2 can be side
@@ -49,7 +51,41 @@ nav ul li a {
 	color: white;
 }
 
+/*Process Section */
+
+#process {
+	margin: 0;
+	height: 50px;
+}
+
+.process-container {
+	margin: 0;
+	padding-top: 0;
+	background-color: blue;
+	display: flex;
+	flex-direction: column;
+}
+
+.process-all-1 {
+	flex: 1;
+	padding-left: 30px;
+	padding-top: 0px;
+}
+
+.process-all-2 {
+	margin-top: 40px;
+	flex: 1;
+	padding-left: 30px;
+}
+
+#video {
+	
+}
 /*Pricing Section*/
+
+#pricing {
+	height: 20px;
+}
 
 .price-container {
 	max-width: 1200px;
@@ -77,6 +113,9 @@ nav ul li a {
 }
 
 /*Contact Section*/
+#contact {
+	height: 100px;
+}
 
 .contact-container {
 	display: flex;
@@ -124,7 +163,9 @@ nav ul li a {
 }
 
 /*Footer Section*/
-
+#copyright {
+	padding-left: 25px;
+}
 
 
 
